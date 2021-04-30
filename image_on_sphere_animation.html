@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="css/imageOnSphereAnimation.css">
+
+        <script src="js/imageOnSphereAnimation.js"></script>
+
+        <title>Image On Sphere</title>
+
+    </head> 
+
+    <body>
+
+        <div class="grid">
+            <div class="lighting">
+                <div class="container" id="canvas">
+                    <div class="sphere" id="image">                
+
+                        <div class="top">
+                            <div class="topLeft"onmouseover="startAnimation('topLeft')" onmouseout="stopAnimation('topLeft')"></div>
+                            <div class="topMiddle" onmouseover="startAnimation('topMiddle')" onmouseout="stopAnimation('topMiddle')"></div>
+                            <div class="topRight" onmouseover="startAnimation('topRight')" onmouseout="stopAnimation('topRight')"></div>                       
+                        </div>
+
+                        <div class="middle">
+                            <div class="left" onmouseover="startAnimation('left')" onmouseout="stopAnimation('left')"></div>
+                            <div class="right" onmouseover="startAnimation('right')" onmouseout="stopAnimation('right')"></div>
+                        </div>
+
+                        <div class="bottom">
+                            <div class="bottomLeft" onmouseover="startAnimation('bottomLeft')" onmouseout="stopAnimation('bottomLeft')"></div>
+                            <div class="bottomMiddle" onmouseover="startAnimation('bottomMiddle')" onmouseout="stopAnimation('bottomMiddle')"></div>
+                            <div class="bottomRight" onmouseover="startAnimation('bottomRight')" onmouseout="stopAnimation('bottomRight')"></div>
+                        </div>                                                                                 
+
+                    </div>                    
+
+                    <span class="shadow"></span>
+
+                </div>                
+            </div>
+        </div>
+
+    </body>
+
+</html>
